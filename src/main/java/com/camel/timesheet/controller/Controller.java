@@ -72,6 +72,7 @@ public class Controller extends RouteBuilder {
 
 					userService.saveUser(user);
 					System.out.println("saved");
+					System.out.println("helo");
 					System.out.println("data " + user);
 
 					String recipientEmail = user.getEmail();
